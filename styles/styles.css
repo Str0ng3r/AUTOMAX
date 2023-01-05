@@ -948,6 +948,10 @@ height: 100%;
     .about_automax__wrap-cont{
        flex-direction: column;
     }
+        .list__sect__services {
+            align-items: center;
+            justify-content: center;
+        }
 }
 @media screen and (max-width:515px) {
         .price__wrap-container {
