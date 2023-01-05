@@ -378,6 +378,8 @@ text-align: center;
     max-width: 1110px;
     padding: 0;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .price-body {
 background: linear-gradient(rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)) ,url(../images/back-prices.jpg);
