@@ -473,6 +473,16 @@ background: linear-gradient(rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)) ,url(.
 .icon__about_automax {
     width: 50%;
 }
+.svg_tik-tok {
+    fill: #d6dae5;
+    max-width: 320px;
+}
+.svg_tik-tok:hover {
+    fill: #13C6FF;
+}
+.svg_tik-tok:focus {
+    fill: #13C6FF;
+}
 .text__about_automax {
     width: 50%;
     display: flex;
@@ -1015,6 +1025,8 @@ color:#FFFFFF ;
     .list__nav__header {
         gap: 10px;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content:center ;
     }
     .link__nav__header {
         text-align: center;
@@ -1136,6 +1148,7 @@ display: none;
         padding-left: 10px;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
     .contacts__footer {
        align-items: center;
@@ -1156,8 +1169,20 @@ display: none;
         line-height: 36px;
     }
 }
-
-@media screen and (min-width:480px) and (max-width:767px) {
+@media screen and (min-width:768px) and (max-width:1000px) {
+    .links__footer {
+        flex-direction: column;
+        padding: 0;
+    }
+    .wrap_cont__footer {
+        align-items: center;
+        justify-content:space-around ;
+    }
+        .fixed_div__body {
+            display: none;
+        }
+}
+@media screen and (min-width:480px) and (max-width:790px) {
      .container {
          max-width: 730px;
          width: auto;
