@@ -88,6 +88,11 @@ button {
     align-items: center;
     justify-content: flex-end;
 }
+.excluz-aut {
+    font-size: 16px;
+    color: #0F1211;
+    font-family: 'Roboto';
+}
 /* .button__header {
 padding: 10px;
 
@@ -597,7 +602,7 @@ background: linear-gradient(rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)) ,url(.
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     height: auto;
 }
 .price__wrap-container {
